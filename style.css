@@ -4,7 +4,12 @@
 	box-sizing: border-box;
 }
 .navigation_bar{
-	background-image: linear-gradient(to right,#a2cae8,#7dbae8,#4781ad);
+	background-image: linear-gradient(to right, #ffc14d,#ffb833,#ffaf1a);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 5;
 }
 .navmenu{
 	color: white;
@@ -16,9 +21,136 @@
 .navmenu:hover{
 	color: black;
 }
+
 .myname{
 	font-size: 30px;
+/*	as*/
 	font-family: Arial Black;
-	color: royalblue;
+	color: #ff4000	;
 	text-shadow: 0px 0px 3px white;
+	font-variant: small-caps;
+}
+.sect
+{
+/*	border: 2px solid black;*/
+	height: 600px;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+/*	background-color:#e3b3 ;*/
+}
+.sect div
+{
+	font-size: 50px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.home{
+	margin-top: 100px;
+	height: 400px;
+}
+.homename{
+	font-size: 80px;
+}
+#designation
+{
+	font-size: 50px;
+	color: orangered;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+.home div
+{
+	font-weight: bolder;
+}
+.about{
+/*	background-color: #ffc966;*/
+	background-color:  #ffdb99;
+
+	height: 350px;
+}
+.aboutdata
+{
+	margin-top: 25px;
+}
+.cobj
+{
+	font-size: 25px;
+	text-align: justify;
+	text-indent: 20%;
+	color: black;
+	font-family: MV Boli;
+
+}
+.section_head
+{
+	font-size: 50px;
+	color:  #cc8500;
+	font-variant: small-caps;
+	font-family: Arial Black;
+}
+.myimg{
+	transition-duration: 1.5s;
+}
+.myimg:hover
+{
+	transform: scale(1.4);
+	border-radius: 50px;
+	box-shadow: 0px 0px 30px #cc8500;
+}
+.skills{
+	background-color: white;
+/*	background-color:  #ffdb99;*/
+}
+.skillset  td ul li{
+	margin-top: 25px;
+	font-weight: bolder;
+	font-size: 30px;
+	color: red;
+}
+.card-text
+{
+	font-size: 20px ;
+}
+.project_cards{
+	width: 90%;
+}
+.card{
+	transition-duration: 1s;
+}
+.card:hover{
+	box-shadow: 0 0 20px black;
+}
+.projects{
+	height: 600px;
+/*	background-color: #ffc966;*/
+	background-color:  #ffc966;
+
+}
+.cnt_form{
+	padding: 15px;
+	font-size: 15px;
+	color: black;
+}
+.form-group{
+	font-size: 25px !important;
+	font-weight: bolder;
+}
+.contact{
+	background-color:  #ffdb99;
+}
+.contact_detail{
+	margin-top: 25px;
+/*	font-weight: bolder;*/
+	font-size: 20px;
+	color: black;	
+}
+.footer{
+	background-color:#ffb833;
+	height: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
 }
